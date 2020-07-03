@@ -1,55 +1,30 @@
+
 clear
-
 figlet AHS TEAM | lolcat
-
 echo "====================================================
-
 # AUTHOR  : A SETENGAH 12
-
 # TEAM    : CYBER AHS INDO
-
 # CONTACT : zainicahganteng246@gmail.com
-
 ====================================================" | lolcat
-
 sleep1
-
 echo " PILIH NOMOR UNTUK MENADAPATKAAN INFORMASI : " | lolcat
-
 echo " [01] JADWAL SHIFT" | lolcat
-
 echo " [02] YANG MAU DAFTAR" | lolcat
-
 echo " [03] PERATURAN" | lolcat
-
 echo " [04] JADWAL KAS TEAM" | lolcat
-
 echo " Nomor  : " | lolcat
-
 read nomor
 
-
 if [ $nomor = 1] || [ $nomor =01 ]
-
 then
-
 clear
-
 echo " SHIFT MALAM" | lolcat
-
 echo " 01. A SETETENGAH 12" | lolcat
-
 echo " 02. MAMANGLUBIZ" | lolcat
-
 echo " DST" | lolcat
-
 echo " SHIFT PAGI" | lolcat
-
 echo " 01. JAM 11" | lolcat
-
 echo " 02. Cak alif" |lolcat
-
 echo " DST" | lolocat
-
 fi
 
