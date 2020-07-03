@@ -14,19 +14,20 @@ echo "====================================================
 
 sleep1
 
-echo \e[0;36m" PILIH NOMOR UNTUK MENADAPATKAAN INFORMASI : " | lolcat
+echo " PILIH NOMOR UNTUK MENADAPATKAAN INFORMASI : " | lolcat
 
-echo \e[0;36m" [01] JADWAL SHIFT" | lolcat
+echo " [01] JADWAL SHIFT" | lolcat
 
-echo \e[0;36m" [02] YANG MAU DAFTAR" | lolcat
+echo " [02] YANG MAU DAFTAR" | lolcat
 
-echo \e[0;36m" [03] PERATURAN" | lolcat
+echo " [03] PERATURAN" | lolcat
 
-echo \e[0;36m" [04] JADWAL KAS TEAM" | lolcat
+echo " [04] JADWAL KAS TEAM" | lolcat
 
-echo \e[1;37m" Nomor  : " | lolcat
+echo " Nomor  : " | lolcat
 
 read nomor
+
 
 if [ $nomor = 1] || [ $nomor =01 ]
 
@@ -34,20 +35,21 @@ then
 
 clear
 
-echo \e[0;32m" SHIFT MALAM" | lolcat
+echo " SHIFT MALAM" | lolcat
 
-echo \e[0;32m" 01. A SETETENGAH 12" | lolcat
+echo " 01. A SETETENGAH 12" | lolcat
 
-echo \e[0;32m" 02. MAMANGLUBIZ" | lolcat
+echo " 02. MAMANGLUBIZ" | lolcat
 
-echo \e[0;32m" DST" | lolcat
+echo " DST" | lolcat
 
-echo \e[0;32m" SHIFT PAGI" | lolcat
+echo " SHIFT PAGI" | lolcat
 
-echo \e[0;32m" 01. JAM 11" | lolcat
+echo " 01. JAM 11" | lolcat
 
-echo \e[0;32m" 02. Cak alif" |lolcat
+echo " 02. Cak alif" |lolcat
 
-echo \e[0;32m" DST" | lolocat
+echo " DST" | lolocat
 
 fi
+
