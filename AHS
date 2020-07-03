@@ -4,11 +4,11 @@ figlet AHS TEAM | lolcat
 
 echo "====================================================
 
-\e[1;32m# AUTHOR  : A SETENGAH 12
+# AUTHOR  : A SETENGAH 12
 
-\e[1;32m# TEAM    : CYBER AHS INDO
+# TEAM    : CYBER AHS INDO
 
-\e[1;32m# CONTACT : zainicahganteng246@gmail.com
+# CONTACT : zainicahganteng246@gmail.com
 
 ====================================================" | lolcat
 
