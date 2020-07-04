@@ -33,7 +33,6 @@ if [ $nomor = 2 ] || [ $nomor = 02 ]
 then
 clear
 echo " Install Daftar-shift.. " | lolcat
-sleep 1
 pkg install bash
 git clonehttps://github.com/Ahstermux/Daftar
 cd Daftar
