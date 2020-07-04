@@ -15,7 +15,7 @@ echo " [02] YANG MAU DAFTAR" | lolcat
 echo " [03] PERATURAN" | lolcat
 echo " [04] JADWAL KAS TEAM" | lolcat
 echo " Nomor  : " | lolcat
-
+read nomor
 
 if [ $nomor = 1 ] || [ $eue = 01 ]
 then
