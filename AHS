@@ -24,6 +24,7 @@ clear
 echo " INSTALL Peraturan.. " | lolcat
 sleep 1
 pkg install bash -y
+https://github.com/Ahstermux/Peraturan
 cd Peraturan Utama
 sh Peraturan Utama
 fi
