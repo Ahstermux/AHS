@@ -14,28 +14,47 @@ echo " [01] JADWAL SHIFT" | lolcat
 echo " [02] YANG MAU DAFTAR" | lolcat
 echo " [03] PERATURAN" | lolcat
 echo " [04] JADWAL KAS TEAM" | lolcat
+echo " [05] EXIT" | lolcat
 echo " Nomor  : " | lolcat
 read nomor
 
 if [ $nomor = 1 ] || [ $eue = 01 ]
 then
 clear
-echo " SHIFT MALAM" | lolcat
-echo " 01. A SETETENGAH 12" | lolcat
-echo " 02. MAMANGLUBIZ" | lolcat
-echo " DST" | lolcat
-echo " SHIFT PAGI" | lolcat
-echo " 01. JAM 11" | lolcat
-echo " 02. Cak alif" |lolcat
-echo " DST" | lolocat
+echo " INSTALL Peraturan.. " | lolcat
+sleep 1
+pkg install bash -y
+cd Peraturan Utama
+sh Peraturan Utama
 fi
 
 if [ $nomor = 2 ] || [ $nomor = 02 ]
 then
 clear
-PS1='\e[1;32m# NAMA ANGGOTA BARU # '
-PS1='\e[1;32m# ALAMAT # '
-PS1='\e[1;32m# SEKOLAH # '
-PS1='\e[1;32m# NO WA # '
-PS1='\e[1;32m# KELAS # '
+echo " INSTALL Daftar-shift.. " | lolcat
+sleep 1
+pkg install bash -y
+https://github.com/Ahstermux/Daftar
+cd Daftar
+sh Daftar
+fi
+
+if [ $nomor = 3 ] || [ $nomor = 03 ]
+then
+clear
+echo " INSTALL Rulle-3.. " | lolcat
+pkg install bash -y
+https://github.com/Ahstermux/Rulle-3
+cd RULES
+sh RULES
+fi
+
+if [ $nomor = 4 ] || [ $nomor = 04 ]
+then
+clear
+echo " INSTALL KAS.. " | lolcat
+pkg install bash -y
+https://github.com/Ahstermux/KAS
+cd Kas
+sh Kas
 fi
