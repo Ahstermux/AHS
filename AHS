@@ -15,7 +15,7 @@ echo " [02] YANG MAU DAFTAR" | lolcat
 echo " [03] PERATURAN" | lolcat
 echo " [04] JADWAL KAS TEAM" | lolcat
 echo " Nomor  : " | lolcat
-read nomor
+
 
 if [ $nomor = 1 ] || [ $eue = 01 ]
 then
@@ -30,3 +30,12 @@ echo " 02. Cak alif" |lolcat
 echo " DST" | lolocat
 fi
 
+if [ $nomor = 2 ] || [ $nomor = 02 ]
+then
+clear
+PS1='\e[1;32m# NAMA ANGGOTA BARU # '
+PS1='\e[1;32m# ALAMAT # '
+PS1='\e[1;32m# SEKOLAH # '
+PS1='\e[1;32m# NO WA # '
+PS1='\e[1;32m# KELAS # '
+fi
