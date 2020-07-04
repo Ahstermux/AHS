@@ -21,7 +21,7 @@ read nomor
 if [ $nomor = 1 ] || [ $eue = 01 ]
 then
 clear
-echo " INSTALL Peraturan.. " | lolcat
+echo " Install Peraturan.. " | lolcat
 sleep 1
 pkg install bash
 git clone https://github.com/Ahstermux/Peraturan
@@ -32,7 +32,7 @@ fi
 if [ $nomor = 2 ] || [ $nomor = 02 ]
 then
 clear
-echo " INSTALL Daftar-shift.. " | lolcat
+echo " Install Daftar-shift.. " | lolcat
 sleep 1
 pkg install bash
 git clonehttps://github.com/Ahstermux/Daftar
@@ -43,7 +43,7 @@ fi
 if [ $nomor = 3 ] || [ $nomor = 03 ]
 then
 clear
-echo " INSTALL Rulle-3.. " | lolcat
+echo " Install Rulle-3.. " | lolcat
 pkg install bash 
 git clone https://github.com/Ahstermux/Rulle-3
 cd RULES
@@ -53,7 +53,7 @@ fi
 if [ $nomor = 4 ] || [ $nomor = 04 ]
 then
 clear
-echo " INSTALL KAS.. " | lolcat
+echo " Install KAS.. " | lolcat
 pkg install bash
 git clone https://github.com/Ahstermux/KAS
 cd Kas
