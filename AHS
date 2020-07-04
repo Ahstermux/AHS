@@ -7,7 +7,7 @@ echo "====================================================
 # TEAM    : CYBER AHS INDO
 # CONTACT : zainicahganteng246@gmail.com
 
-====================================================" | lolcat
+====================================================" | lolcat 
 sleep1
 echo " PILIH NOMOR UNTUK MENADAPATKAAN INFORMASI : " | lolcat
 echo " [01] JADWAL SHIFT" | lolcat
@@ -23,7 +23,7 @@ then
 clear
 echo " INSTALL Peraturan.. " | lolcat
 sleep 1
-pkg install bash -y
+pkg install bash
 https://github.com/Ahstermux/Peraturan
 cd Peraturan Utama
 sh Peraturan Utama
@@ -34,7 +34,7 @@ then
 clear
 echo " INSTALL Daftar-shift.. " | lolcat
 sleep 1
-pkg install bash -y
+pkg install bash
 https://github.com/Ahstermux/Daftar
 cd Daftar
 sh Daftar
@@ -44,17 +44,17 @@ if [ $nomor = 3 ] || [ $nomor = 03 ]
 then
 clear
 echo " INSTALL Rulle-3.. " | lolcat
-pkg install bash -y
+pkg install bash 
 https://github.com/Ahstermux/Rulle-3
 cd RULES
-sh RULES
+sh RULES.sh
 fi
 
 if [ $nomor = 4 ] || [ $nomor = 04 ]
 then
 clear
 echo " INSTALL KAS.. " | lolcat
-pkg install bash -y
+pkg install bash
 https://github.com/Ahstermux/KAS
 cd Kas
 sh Kas
