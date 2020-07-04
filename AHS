@@ -24,7 +24,7 @@ clear
 echo " INSTALL Peraturan.. " | lolcat
 sleep 1
 pkg install bash
-https://github.com/Ahstermux/Peraturan
+git clone https://github.com/Ahstermux/Peraturan
 cd Peraturan Utama
 sh Peraturan Utama
 fi
@@ -35,7 +35,7 @@ clear
 echo " INSTALL Daftar-shift.. " | lolcat
 sleep 1
 pkg install bash
-https://github.com/Ahstermux/Daftar
+git clonehttps://github.com/Ahstermux/Daftar
 cd Daftar
 sh Daftar
 fi
@@ -45,7 +45,7 @@ then
 clear
 echo " INSTALL Rulle-3.. " | lolcat
 pkg install bash 
-https://github.com/Ahstermux/Rulle-3
+git clone https://github.com/Ahstermux/Rulle-3
 cd RULES
 sh RULES.sh
 fi
@@ -55,7 +55,7 @@ then
 clear
 echo " INSTALL KAS.. " | lolcat
 pkg install bash
-https://github.com/Ahstermux/KAS
+git clone https://github.com/Ahstermux/KAS
 cd Kas
 sh Kas
 fi
